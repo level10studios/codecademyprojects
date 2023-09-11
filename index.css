@@ -1,0 +1,82 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(133, 48, 48);
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.9;
+    
+  }
+
+  body{
+   text-align: center;
+    
+    
+  }
+  
+
+
+  p, 
+  li {
+    font-size: 18px;
+  }
+   
+   
+  a {
+    text-decoration: none;
+  }
+
+  .header-barr{
+    height: 69px;
+    border-bottom: 1px;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .Tea-Cozy-Title{
+    color: rgb(129, 204, 162);
+    font-family: Kunstler Script;
+    font-size: 50px;
+    margin: 10px;
+  }
+
+
+  .Navegation-items{
+    text-decoration: underline;
+    border: solid;
+    border-width: 1px;
+    float: right;
+  
+  } 
+
+  .our-mission-area{
+    height: 700px;
+    border: solid;
+    border-width: 1px;
+    margin: 70px;
+  }
+
+  .our-mission-text{
+  position: absolute;
+  top: 350px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  }
+
+  .tea-of-the-month-part{
+    margin-top: 100px;
+    
+    
+  }
+
+  .image-size{
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+    display: inline-block;
+  }
