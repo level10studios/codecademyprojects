@@ -1,107 +1,126 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Tea Cozy</title>
-  <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
-</head>
-<body>
-  <div class="header-barr">
-    <div >
-      <h1 class="Tea-Cozy-Title">Tea Cozy</h1>
-    </div>
-    <div class="navegation-barr">
-     
-        <h2 class="Navegation-items">Mission</h2>
-      
-      
-        <h2 class="Navegation-items">Featured Tea</h2>
-      
-     
-        <h2 class="Navegation-items">Locations</h2>
-      
-    </div>
-  </div>
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(133, 48, 48);
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.9;
+    
+  }
 
-  <div class="our-mission-area">
-    <img src="/resources/img/img-mission-background.jpg" alt="This is the background picture of an open jarr">
-    <div class="our-mission-text">
-      <h2>Our Mission</h2>
-      <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
-    </div>
-  </div>
+  body{
+   text-align: center;
+
+    
+    
+  }
+  
 
 
-
-    <div>
-      <h2>Tea of the Month</h2>
-      <h3>What's steeping at the Tea Cozy?</h3>
-    </div>
-
-    <div class="tea-of-the-month-part">
-
-      <figure>
-        <img  class="image-size" src="/resources/img/img-berryblitz.jpg" alt="">
-        <figcaption>Fall Berry Blitz tea</figcaption>
-      </figure>
-
-      <figure>
-        <img  class="image-size" src="/resources/img/img-spiced-rum.jpg" alt="">
-        <figcaption>Spice Rum Tea </figcaption>
-      </figure>
-
-      <figure>
-      <img  class="image-size" src="/resources/img/img-donut.jpg" alt="">
-      <figcaption>Seasonal Donuts</figcaption>
-      </figure>
-
-      <figure>
-        <img  class="image-size" src="/resources/img/img-myrtle-ave.jpg" alt="">
-        <figcaption>Myrtle Ave Tea</figcaption>
-      </figure>
-
-      <figure>
-        <img  class="image-size" src="/resources/img/img-bedford-bizarre.jpg" alt="">
-        <figcaption>Bedfore Bizarre Tea</figcaption>
-      </figure>
-      
-
-      
-    </div>
-
-    <div class="Locations" style="background: url(/resources/img/img-locations-background.jpg)"  >
-
-
-      <imdg src="/resources/img/img-locations-background.jpg" alt="">
-      
-
-      <h2 class="locations-title">LOCATIONS</h2>
-
-      <figure class="Location-box">
-        <h3>Downtown</h3>
-        <h4>384 West 4th St</h4>
-        <h4>Suite 108</h4>
-        <h4>Portland Maine</h4>
-      </figure>
-
-      
-      <figure class="Location-box">
-        <h3>Downtown</h3>
-        <h4>384 West 4th St</h4>
-        <h4>Suite 108</h4>
-        <h4>Portland Maine</h4>
-      </figure>
-
-      
-      <figure class="Location-box">
-        <h3>Downtown</h3>
-        <h4>384 West 4th St</h4>
-        <h4>Suite 108</h4>
-        <h4>Portland Maine</h4>
-      </figure>
-
-    </div>
-
+  p, 
+  li {
+    font-size: 18px;
+  }
    
+   
+  a {
+    text-decoration: none;
+  }
 
-</body>
-</html>
+  .header-barr{
+    height: 69px;
+    border-bottom: 1px;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .Tea-Cozy-Title{
+    color: rgb(129, 204, 162);
+    font-family: Kunstler Script;
+    font-size: 50px;
+    margin: 10px;
+  }
+
+
+  .Navegation-items{
+    text-decoration: underline;
+    border: solid;
+    border-width: 1px;
+    float: right;
+  
+  } 
+
+  .our-mission-area{
+    height: 700px;
+    border: solid;
+    border-width: 1px;
+    margin: 70px;
+
+  }
+
+  .our-mission-area img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .our-mission-text{
+  position: absolute;
+  top: 350px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  }
+
+  .tea-of-the-month-part{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-flow: row wrap;
+    
+
+  }
+
+  .image-size{
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  
+  }
+
+
+  .Locations{
+    position: relative;
+    align-items: center;
+
+    
+
+  }
+
+  .Location-box{
+    width: 300px;
+    background-color: green;
+    border: solid;
+    border-width: 1px;
+    top: 10px;
+    
+
+    
+   
+  
+  }
+
+  .locations-title{
+    position: absolute;
+     top: 10px;
+     left: 0;
+
+  }
+
+ 
